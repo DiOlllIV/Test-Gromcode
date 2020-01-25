@@ -20,9 +20,4 @@ let users =
     {name: 'Victor', birthDate: '1998-11-09'},
 ]
 
-let user = prompt("Enter a name: ", 'user');
-for(i = 0; i > users.legth; i++)
-{
-    user = users.find(item => item.name == users[i]);
-}    
-console.log(users[i]);
+
