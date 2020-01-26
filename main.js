@@ -25,3 +25,5 @@ alert("name: " + user.name + " birthDate: " + user.birthDate);
 /************************************************************/
 let searchByName = users.indexOf(user);
 console.log(users[searchByName]);
+/*****************Возвращаем новый массив*****************/
+console.log( [users[searchByName]].slice() );
