@@ -22,4 +22,6 @@ let users =
 let ent = prompt('Enter a username: ', 'user');
 let user = users.find(item => item.name == ent);
 alert("name: " + user.name + " birthDate: " + user.birthDate);
-
+/************************************************************/
+let searchByName = users.indexOf(user);
+console.log(users[searchByName]);
