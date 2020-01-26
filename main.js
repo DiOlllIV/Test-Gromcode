@@ -26,3 +26,16 @@ let searchByName = users.indexOf(user);
 console.log(users[searchByName]);
 /*****************Возвращаем новый массив*****************/
 console.log( [users[searchByName]].slice() );
+
+/*****************В виде функции*****************/
+function searchByName()
+{  
+    this.entr = prompt('Enter a username: ', 'user');    
+    this.user = users.find(item => item.name == entr);
+    this.id = users.indexOf(user);
+    this.username = users[id];
+
+    return [username].slice();
+}
+console.log(searchByName() );
+
