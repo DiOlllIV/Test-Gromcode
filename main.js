@@ -31,11 +31,11 @@ console.log( [users[searchByName]].slice() );
 function searchByName()
 {  
     this.entr = prompt('Enter a username: ', 'user');    
-    this.user = users.find(item => item.name == entr);
-    this.id = users.indexOf(user);
-    this.username = users[id];
+    this.username = users.find(item => item.name == entr);
+    this.id = users.indexOf(username);
+    this.user = users[id];
 
-    return [username].slice();
+    return [user].slice();
 }
-console.log(searchByName() );
+console.log( searchByName() );
 
