@@ -19,5 +19,7 @@ let users =
     {name: 'Andrew', birthDate: '2001-10-29'},
     {name: 'Victor', birthDate: '1998-11-09'},
 ]
-
+let ent = prompt('Enter a username: ', 'user');
+let user = users.find(item => item.name == ent);
+alert("name: " + user.name + " birthDate: " + user.birthDate);
 
