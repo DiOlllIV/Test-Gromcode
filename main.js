@@ -4,7 +4,6 @@ let arr = [2, 65, 76, 34, 23, 89, 4, 8, 6, 54];
 function getMin(arr)
 {
     return [ Math.min.apply(Math, arr) ];
-
 }
 alert(getMin(arr) );
  
